@@ -1,0 +1,46 @@
+{
+    "freeToon":[
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/free1.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "여제화원",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "10.3만명",
+            "viewWriter": "PAMBA,윤점례"
+
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "millionIcon": "./asset/images/icon/badge_right_million.png",
+            "imgSrc": "./asset/images/contents/free2.png",
+            "upIcon": "./asset/images/icon/icon_up.svg",
+            "title": "적기사는 눈먼 돈을 좇지 않는다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "54.5만명",
+            "viewWriter": "송재민,로시원"
+
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "millionIcon": "./asset/images/icon/badge_right_million.png",
+            "imgSrc": "./asset/images/contents/free3.png",
+            "upIcon": "./asset/images/icon/icon_up.svg",
+            "title": "네 곁에도 어쩌면",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "38.6만명",
+            "viewWriter": "윤지운"
+
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/free4.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "영웅 뽑기는 신중하게",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "14.1만명",
+            "viewWriter": "피치,이미누"
+
+        }
+    ]
+}

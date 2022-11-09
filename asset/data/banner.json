@@ -1,0 +1,74 @@
+{
+    "mainBanner": [
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb1.png",
+            "caption": "여제화원,기다무 런칭기념, 캐시+경품 이벤트!"
+        },
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb2.png",
+            "caption": "화학자,당가의 막둥이 되다. 런칭 기념 캐시이벤트!"
+        },
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb3.png",
+            "caption": "멸망한 세계의 기억을 담아온 회귀자. 런칭 기념 캐시이벤트!"
+        },
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb4.png",
+            "caption": "적기사는 눈먼 돈을 좇지 않는다. 시즌2 오픈기념 정주행시 캐시뽑기권 증정!"
+        },
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb5.png",
+            "caption": "미남당 사건수첩 드라마화 기념, 원작 소설 보면 캐시 선물!!"
+        },
+        {
+            "link": "./detail.html",
+            "imgSrc": "./asset/images/mb/mb6.png",
+            "caption": "웹툰, 그 바보짓은 바로 이녀석의 소행!"
+        }
+    ],
+    "midBanner":[
+        {
+            "imgSrc": "./asset/images/bg/bg6.png",
+            "caption": "꾸준히 사랑받는 카카페 스테디 페이지, 첫 감상하면 최대 1,000 캐시 즉시 지급!"
+        },
+        {
+            "imgSrc": "./asset/images/bg/bg3.png",
+            "caption": "내 안의 화끈한 방아쇠를 당겨라!, 웹툰 트리거"
+        },
+        {
+            "imgSrc": "./asset/images/bg/bg4.png",
+            "caption": "인기 웹툰 100화 무료, 이번주 백화무를 확인하세요!"
+        },
+        {
+            "imgSrc": "./asset/images/bg/bg5.png",
+            "caption": "카카오페이지 피자 세트 출시, 피자먹고, 최대 25,000캐시 받기"
+        }
+    ],
+    "lastBanner":[
+        {
+            "imgSrc": "./asset/images/contents/fevent1.png",
+            "caption": "토르:러브 앤 썬더 개봉 축하 이벤트,20명에게 10,000캐시 증정"
+        },
+        {
+            "imgSrc": "./asset/images/contents/fevent2.png",
+            "caption": "꾸준히 사랑받는 카카페 스테디 추천작,첫 감상하면 최대 1,000캐시 즉시 지급!"
+        },
+        {
+            "imgSrc": "./asset/images/contents/fevent3.png",
+            "caption": "인기웹툰 100화 무료, 매주 월요일, 금요일 라인업 공개!"
+        },
+        {
+            "imgSrc": "./asset/images/contents/fevent4.png",
+            "caption": "따끈따끈 완결작 기획전 최식 완결작 정주행하면, 전원 캐시 선물!"
+        },
+        {
+            "imgSrc": "./asset/images/contents/fevent5.png",
+            "caption": "카카오페이지 피자 세트 출시 피자먹고, 최대 25,000캐시 받기"
+        }
+    ]
+}

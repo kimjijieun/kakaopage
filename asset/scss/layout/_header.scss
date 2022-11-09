@@ -1,0 +1,221 @@
+
+.header{
+    position: fixed;
+    top: 0;left: 0;
+    z-index: 99;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+.header .logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 15px;
+}
+.header .link-logo{
+    background: url(../images/logo/logo-kakaopage.svg) no-repeat;
+    background-size: contain;
+    width: 101px;
+    height: 21px;
+    display: inline-block;
+}
+
+.header .stage-area{
+    display: flex;
+    align-items: center;
+}
+.header .stage-area .link-stage{
+    background: url(../images/icon/mo-logo-stage.svg)no-repeat;
+    width: 21px;height: 25px;
+    background-size: 100%;
+    display: inline-block;
+}
+.header .stage-area .link-search{
+    background: url(../images/icon/search-icon.svg)no-repeat;
+    width: 20px;height: 20px;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.header .stage-area .link-login{
+    font-size: 12px;
+    font-weight: bold;
+    color: #121212;
+    margin-left: 14px;
+}
+
+/* ///// */
+
+.header .search-inner{
+    padding: 10px 0;
+}
+.header .stage-area .search-area.active .link-search{
+    display: none;
+}
+.search-box{
+    border-top: 1px solid rgb(238, 238, 238);
+    padding: 10px 0px;
+    /* border: none; */
+    display: flex;
+    height: 23px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(51, 51, 51);
+
+}
+.search-bar{
+    width: 100%;
+    border: 0;
+    display: flex;
+    padding-bottom: 6px;
+    color: #bdbdbd;
+    font-weight: bold;
+
+}
+
+.header .search-area{
+    display: none;
+    background: #eee;
+    height: 100vh;
+}
+.header .search-area.active{
+    display: block;
+}
+.header .search-area .link-search{
+    background: url(../images/icon/btn_search.png)no-repeat;
+    width: 20px;height: 20px;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.header .search-area .img-box{
+    width: 438px;
+    height: 71px;
+    margin-top: 11px;
+}
+.header .search-area img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* //tap-area// */
+.header .tab-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.header .tab-item{
+    flex: 1;
+    padding: 14px 0 11px;
+    position: relative;
+
+}
+/* ///자바 */
+.header .active.tab-item{
+   border-bottom: 2px solid #ffd200;
+}
+.header .link-tab{
+    display: inline-block;
+    /* width: 13px; */
+    height: 16px;
+}
+.header .link-tab.home{
+    width: 13px;
+    background: url(../images/icon/menu_home.svg)no-repeat;
+    background-size: 100%;
+}
+.header .link-tab.web-toon{
+    width: 47px;
+    background: url(../images/icon/menu_toon.svg)no-repeat;
+        background-size: 100%;
+}
+.header .link-tab.novel{
+    width: 60px;
+    background: url(../images/icon/menu_novel.svg)no-repeat;
+        background-size: 100%;
+}
+.header .link-tab.talk{
+    width: 38px;
+    background: url(../images/icon/menu_talkdrip.svg)no-repeat;
+        background-size: 100%;
+}
+.header .link-tab.book{
+    width: 13px;
+    background: url(../images/icon/menu_book.svg)no-repeat;
+        background-size: 100%;
+}
+
+.header .link-tab.web-toon::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 210, 0);
+}
+.header .link-tab.novel::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 210, 0);
+}
+.header .link-tab.book::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 50%;
+    right: 8px;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 210, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* /// 서브페이지 */
+.header .logo-area{
+    border-bottom: 1px solid #e6e6e6;
+}
+.header .cotrol-box{
+    display: flex;
+    align-items: center;
+}
+.header .cotrol-box .link-back{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* margin: 16px 0 12px 0; */
+
+    background: url(../images/icon/back-icon.svg)no-repeat;
+    background-size: 100%;
+}
+.header .cotrol-box .link-home{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    /* margin: 16px 0px 12px 20px; */
+
+    background: url(../images/icon/home-icon.svg)no-repeat;
+    background-size: 100%;
+}
