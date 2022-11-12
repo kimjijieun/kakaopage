@@ -38,9 +38,13 @@ $(function(){
             delay: 3000,
             disableOnInteraction: false,
           },
-          scrollbar: {
-            el: ".swiper-scrollbar",
+          pagination: {
+            el: ".swiper-pagination",
           },
+          // scrollbar: {
+          //   el: ".swiper-scrollbar",
+          //   dragSize: 300,스크롤바 크기
+          // },
         });
     })
 

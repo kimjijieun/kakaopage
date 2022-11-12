@@ -42,5 +42,126 @@
             "viewWriter": "피치,이미누"
 
         }
+    ],
+    "freeNovel":[
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/freenovel1.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "세상에 나쁜 초월자는 없다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "10.9만명",
+            "viewWriter": "윤달"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/freenovel2.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "소란한 연애사",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "11.4만명",
+            "viewWriter": "이노"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/freenovel3.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "millionIcon": "./asset/images/icon/badge_right_million.png",
+            "title": "왕은 길 위에서 태어난다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "20.9만명",
+            "viewWriter": "이보라"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/freenovel4.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "서리꽃 나리는 강",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "11.3만명",
+            "viewWriter": "자색련"
+        }
+    ],
+    "publicToon":[
+        {
+            "webtoonIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/popular1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "회귀한 영애는 디저트 가게를 연다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19.9만명",
+            "viewWriter": "한리앙,톰"
+        },
+        {
+            "webtoonIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/popular2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "우리집이거든요!",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "18.6만명",
+            "viewWriter": "공룡"
+        },
+        {
+            "webtoonIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/popular3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "엄마는 외국인 시즌5",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19.9만명",
+            "viewWriter": "한리앙,톰"
+        },
+        {
+            "webtoonIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/popular4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악한 기사",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "42.7만명",
+            "viewWriter": "글가애,김랄라"
+        }
+    ],
+    "publicNovel":[
+        {
+            "novelIcon": "./asset/images/icon/badge_novel.png",
+            "imgSrc": "./asset/images/contents/popularnovel1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "흑막을 구했더니 남편이 생겨버렸다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "2.7만명",
+            "viewWriter": "Yuwn"
+        },
+        {
+            "novelIcon": "./asset/images/icon/badge_novel.png",
+            "imgSrc": "./asset/images/contents/popularnovel2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "폭군에게는 주인이 필요하다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "2.4만명",
+            "viewWriter": "이별"
+        },
+        {
+            "novelIcon": "./asset/images/icon/badge_novel.png",
+            "imgSrc": "./asset/images/contents/popularnovel3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "몰락 세가의 시한부 영약",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "3.1만명",
+            "viewWriter": "프리드리히"
+        },
+        {
+            "novelIcon": "./asset/images/icon/badge_novel.png",
+            "imgSrc": "./asset/images/contents/popularnovel4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "안영경찰서 형사 1팀에 어서 오세요",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "7,337명",
+            "viewWriter": "김노운"
+        }
+    ],
+    "realTime":[
+        {}
+    ],
+    "freeNovel":[
+        {}
     ]
 }

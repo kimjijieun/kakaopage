@@ -19,11 +19,29 @@
     object-fit: cover;
     border-radius: 6px;
 }
-.sc-visual .swiper-scrollbar{
-    margin: 3.45vw 0;
+
+.sc-visual .main-slide .swiper-bar{
+    // bottom: 37px;
     position: relative;
-    height: 1.8px;
+    margin: 3.45vw 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 20px;
+    height: 2px;
+    // height: 1.8px;
+    margin: 0;
+    border-radius: 0;
+    background: #9d9d9d;
+}
+
+
+// .sc-visual .swiper-scrollbar{
+//     margin: 3.45vw 0;
+//     position: relative;
+//     height: 1.8px;
+// }
 
 
 .sc-visual .new-work-list{
