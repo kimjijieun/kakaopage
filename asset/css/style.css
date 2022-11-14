@@ -403,6 +403,9 @@ body { font-family: 'Noto Sans KR', sans-serif; font-weight: 400; color: #333; m
 
 .sc-millionnovel .txt-box .view-info { margin-bottom: 0; }
 
+/* sc-bestseller */
+.sc-bestseller { position: relative; margin-top: 11px; background: #fff; border-bottom: 1px solid #e6e6e6; }
+
 /* ad-box */
 .ad-box { position: relative; margin-top: 11px; background: #fff; border-bottom: 1px solid #e6e6e6; width: 100%; height: 100%; /* padding: 0 23px; */ }
 

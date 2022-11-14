@@ -158,10 +158,249 @@
             "viewWriter": "김노운"
         }
     ],
-    "realTime":[
-        {}
+    "byDay":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "도굴왕",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "331.9만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "소설 속 엑스트라",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "21.6만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀 시어머니를 그만뒀더니, 다들 내게 집착한다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "40.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "다정한 그대를 지키는 방법",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "93.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "빈껍데기 공작부인",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "149.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀는 마리오네트",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "123.1만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "결혼 장사",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "47.5만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "막내 황녀님",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "125.1만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.8",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "키다리 회장님",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "139.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.3",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "프로야구생존기",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "18.6만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon11.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "가르쳐주세요, 선배",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19.5만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon12.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "사실, 그들은 오직 그녀만을 기억하고 있었습니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "86.1만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon13.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "궁귀검신",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "58.1만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon14.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "로열 셰프 영애님",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "92.8만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtoon15.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "로드 오브 머니",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "53.5만명"
+        }
     ],
-    "freeNovel":[
-        {}
+    "challengeToon":[
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/challenge1.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "로열 메리지",
+            "viewTxt": "일주일 안에 남편감을 찾아야 한다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "34.7만명",
+            "viewWriter": "희야,강렬,포르토피노"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/challenge2.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "악당의 소중한 따님",
+            "viewTxt": "악당의 딸이 되면 이생망 극복?",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "342.5만명",
+            "viewWriter": "아이링,윤온"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/challenge3.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "왜 하필 시누이죠?",
+            "viewTxt": "일주일 안에 남편감을 찾아야 한다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "22.4만명",
+            "viewWriter": "WS,김우츠,독연"
+        }
+    ],
+    "challengeNovel":[
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/millionnovel1.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "장르를 바꿔보도록 하겠습니다",
+            "viewTxt": "나쁜 이모는 되지 않기로 했다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "70.4만명",
+            "viewWriter": "KEN"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/millionnovel2.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "만렙 영웅님께서 귀환하신다",
+            "viewTxt": "천년 동안 굴렀으면 됐잖아?!!",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "85만명",
+            "viewWriter": "악마꼬리"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/millionnovel3.png",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "이차원 용병",
+            "viewTxt": "일주일 안에 남편감을 찾아야 한다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "276.2만명",
+            "viewWriter": "금호"
+        }
+    ],
+    "bestSeller":[
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/best1.pn",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "미남당 사건 수첩",
+            "viewTxt": "💕미남당 DAY💕 단 하루 전회차 무료",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "37.5만명",
+            "viewWriter": "정재현"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/best2.pn",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "금화일기 : 조선소방관",
+            "viewTxt": "연쇄 방화범을 쫓아라!",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "5.7만명",
+            "viewWriter": "써니사이드욥"
+        },
+        {
+            "timeIcon": "./asset/images/icon/badge_time.png",
+            "imgSrc": "./asset/images/contents/best3.pn",
+            "newIcon": "./asset/images/icon/icon_new.svg",
+            "title": "마스터 마인드",
+            "viewTxt": "천재 프로파일러 vs 몸을 갈아타는 살인마",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "6.3만명",
+            "viewWriter": "이성민"
+        }
     ]
 }

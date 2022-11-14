@@ -49,6 +49,63 @@ $(function(){
     })
 
 
+    //기다리면무료웹툰
+    fetch("./asset/data/product.json")
+    .then((response) => response.json())
+    
+    .then((json) => {
+      // alert(json);
+            const freeToon = json.freeToon;
+        
+            let html = '';
+            freeToon.forEach(freeToon => {
+        
+                html += `<li class="product-item">
+                <a href="">
+                    <div class="img-box">
+                        <div class="badge">
+                              <img src="${freeToon.timeIcon}" alt="기다리면 무료">
+                              <img src="${freeToon.millionIcon}" alt="밀리언페이지" class="mp-icon">
+                        </div>
+                        <img src="${freeToon.imgSrc} " alt="여제화원">
+                    </div>
+                    <div class="txt-wrap">
+                        <div class="title-box">
+                            <img src="${freeToon.newIcon}" alt="">
+                            <em class="title"> ${freeToon.title}</em>
+                        </div>
+                        
+                        <div class="view-info">
+                            <img src="${freeToon.readIcon}" alt="사람 아이콘">
+                            <span class="view-people">${freeToon.viewPeople}</span>
+                            <span class="view-writer">${freeToon.viewWriter}</span>
+                        </div>
+                    </div>
+                </a>
+            </li>`;
+        
+            });
+            // console.log(html);
+            const list = document.querySelector('.sc-free-toon .product-list');
+        
+            list.innerHTML = html; //변수
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //mid슬라이드
     fetch("./asset/data/banner.json")
     .then((response) => response.json())
