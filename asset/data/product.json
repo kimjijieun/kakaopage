@@ -4,6 +4,8 @@
             "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/free1.png",
             "newIcon": "./asset/images/icon/icon_new.svg",
+            "millionIcon": null,
+            "upIcon": null,
             "title": "여제화원",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "10.3만명",
@@ -12,6 +14,7 @@
         },
         {
             "timeIcon": "./asset/images/icon/badge_time.png",
+            "newIcon": null,
             "millionIcon": "./asset/images/icon/badge_right_million.png",
             "imgSrc": "./asset/images/contents/free2.png",
             "upIcon": "./asset/images/icon/icon_up.svg",
@@ -94,7 +97,7 @@
         },
         {
             "webtoonIcon": "./asset/images/icon/badge_time.png",
-            "imgSrc": "./asset/images/contents/popular2.png",
+            "imgSrc": "./asset/images/contents/popular2.jpg",
             "updateIcon": "./asset/images/icon/icon_up.svg",
             "title": "우리집이거든요!",
             "readIcon": "./asset/images/icon/icon_read_count.png",
@@ -112,7 +115,7 @@
         },
         {
             "webtoonIcon": "./asset/images/icon/badge_time.png",
-            "imgSrc": "./asset/images/contents/popular4.png",
+            "imgSrc": "./asset/images/contents/popular4.jpg",
             "updateIcon": "./asset/images/icon/icon_up.svg",
             "title": "악한 기사",
             "readIcon": "./asset/images/icon/icon_read_count.png",
@@ -158,7 +161,7 @@
             "viewWriter": "김노운"
         }
     ],
-    "byDay":[
+    "monDay":[
         {
             "rankNumber": "1위",
             "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",

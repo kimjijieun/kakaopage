@@ -53,6 +53,11 @@ $(function(){
     fetch("./asset/data/product.json")
     .then((response) => response.json())
     
+    // if(jQuery.isEmptyObject(json_object)) {}
+    // if(true === jQuery.isEmptyObject(json_object)) {}
+	
+
+
     .then((json) => {
       // alert(json);
             const freeToon = json.freeToon;
@@ -72,6 +77,7 @@ $(function(){
                     <div class="txt-wrap">
                         <div class="title-box">
                             <img src="${freeToon.newIcon}" alt="">
+                            <img src=".${freeToon.upIcon}" alt="업데이트">
                             <em class="title"> ${freeToon.title}</em>
                         </div>
                         
@@ -87,6 +93,59 @@ $(function(){
             });
             // console.log(html);
             const list = document.querySelector('.sc-free-toon .product-list');
+
+
+            // function isEmptyObj(obj)  {
+            //   // 객체 타입체크
+            //   if(obj.constructor !== Object)  {
+            //     return false;
+            //   }
+            //   return true;
+            // }
+        
+            list.innerHTML = html; //변수
+        })
+
+
+
+//인기 웹툰
+
+    fetch("./asset/data/product.json")
+    .then((response) => response.json())
+    .then((json) => {
+
+            const publicToon = json.publicToon;
+        
+            let html = '';
+            publicToon.forEach(publicToon => {
+        
+                html += `<li class="product-item">
+                          <a href="">
+                              <div class="img-box">
+                                  <div class="badge">
+                                      <img src="${publicToon.webtoonIcon}" alt="웹툰">
+                                  </div>
+                                  <img src="${publicToon.imgSrc}" alt="회귀한 영애는 디저트 가게를 연다">
+                              </div>
+                              <div class="txt-wrap">
+                                  <div class="title-box">
+                                      <img src="${publicToon.updateIcon}" alt="업데이트">
+                                      <em class="title">${publicToon.title}</em>
+                                  </div>
+                                  
+                                  <div class="view-info">
+                                      <img src="${publicToon.readIcon}" alt="사람 아이콘">
+                                      <span class="view-people">${publicToon.viewPeople}</span>
+                                      <span class="view-writer">${publicToon.viewWriter}</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>`;
+        
+            });
+            // console.log(html);
+            const list = document.querySelector('.sc-public-toon .product-list');
+
         
             list.innerHTML = html; //변수
         })
@@ -94,6 +153,46 @@ $(function(){
 
 
 
+    //월요일
+    fetch("./asset/data/product.json")
+    .then((response) => response.json())
+    .then((json) => {
+
+            const monDay = json.monDay;
+        
+            let html = '';
+            monDay.forEach(monDay => {
+        
+                html += `<li class="product-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <div class="badge">
+                                        <img src="${monDay.starIcon}" alt="별점" class="icon-star">
+                                        <p class="img-rank">${monDay.rankNumber}</p>
+                                        <img src="${monDay.waitIcon}" alt="" class="icon-wait">
+                                    </div>
+                                    <img src="${monDay.imgSrc}" alt="도굴왕">
+                                </div>
+                                <div class="txt-wrap">
+                                    <div class="title-box">
+                                        <em class="title">${monDay.title}</em>
+                                    </div>
+                                    <div class="view-info">
+                                        <img src="${monDay.updateIcon}" alt="업데이트" class="icon-up">
+                                        <img src="${monDay.readIcon}" alt="사람 아이콘">
+                                        <span class="view-people">${monDay.viewPeople}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>`;
+        
+            });
+            // console.log(html);
+            const list = document.querySelector('.sc-array .day-wrap.mon .product-list');
+
+        
+            list.innerHTML = html; //변수
+        })
 
 
 
