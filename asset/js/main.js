@@ -158,29 +158,29 @@ $(function(){
     .then((response) => response.json())
     .then((json) => {
 
-            const monDay = json.monDay;
+            const webMonday = json.webMonday;
         
             let html = '';
-            monDay.forEach(monDay => {
+            webMonday.forEach(webMonday => {
         
                 html += `<li class="product-item">
                             <a href="">
                                 <div class="img-box">
                                     <div class="badge">
-                                        <img src="${monDay.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${monDay.rankNumber}</p>
-                                        <img src="${monDay.waitIcon}" alt="" class="icon-wait">
+                                        <img src="${webMonday.starIcon}" alt="별점" class="icon-star">
+                                        <p class="img-rank">${webMonday.rankNumber}</p>
+                                        <img src="${webMonday.waitIcon}" alt="" class="icon-wait">
                                     </div>
-                                    <img src="${monDay.imgSrc}" alt="도굴왕">
+                                    <img src="${webMonday.imgSrc}" alt="도굴왕">
                                 </div>
                                 <div class="txt-wrap">
                                     <div class="title-box">
-                                        <em class="title">${monDay.title}</em>
+                                        <em class="title">${webMonday.title}</em>
                                     </div>
                                     <div class="view-info">
-                                        <img src="${monDay.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${monDay.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${monDay.viewPeople}</span>
+                                        <img src="${webMonday.updateIcon}" alt="업데이트" class="icon-up">
+                                        <img src="${webMonday.readIcon}" alt="사람 아이콘">
+                                        <span class="view-people">${webMonday.viewPeople}</span>
                                     </div>
                                 </div>
                             </a>

@@ -161,7 +161,7 @@
             "viewWriter": "김노운"
         }
     ],
-    "monDay":[
+    "webMonday":[
         {
             "rankNumber": "1위",
             "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
@@ -308,6 +308,699 @@
             "title": "로드 오브 머니",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "53.5만명"
+        }
+    ],
+    "webTuesday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 악당 공작가의 실세 막내딸입니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "36.9만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "내 딸은 드래곤!",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "18.2만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀는 마리오네트",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "125.2만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀는 두 번 산다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "109.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 악녀 시어머니를 그만뒀더니, 다들 내게 집착한다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "45만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "이레인의 사정",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "21.8만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "결혼 장사",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "51만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "막내 황녀님",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "126.2만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 록사나 : 여주인공의 오빠를 지키는 법",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "84.1만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.8",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webtue10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 만렙 영웅님께서 귀환하신다!",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "70.9만명"
+        }
+    ],
+    "webWednesday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "당신의 이해를 돕기 위하여",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "228.4만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 남주를 입양합니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "12만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "인소의 법칙",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "151.2만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "계모인데, 딸이 너무 귀여워",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "83만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "진짜 딸이 돌아왔다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "31.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 내 남자 주인공의 아내가 되었다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "85.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "태양의 주인",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "69.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.6",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 폐급인 척했던 학교생활",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "장르를 바꿔보도록 하겠습니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "85.6만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.8",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webwed10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "쌍둥이 남매의 뉴라이프",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "96.7만명"
+        }
+    ],
+    "webThursday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "주치의는 할 일 다하고 사표 씁니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "35.3만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "아빠, 나 이 결혼 안할래요",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "95.9만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "나 혼자만 레벨업",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "488.6만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "킬 더 히어로",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "74.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "착한 언니는 없다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "33.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "황제궁 옆 마로니에 농장",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "85.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악당의 아빠를 꼬셔라",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "165.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.6",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "딸 바보가 되었습니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "69.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "신데렐라는 내가 아니었다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "52만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webthr10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "남편을 내 편으로 만드는 방법",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "63.7만명"
+        }
+    ],
+    "webFriday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "도굴왕",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "334.5만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "화홍",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "119.5만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "용사의 어머니가 되겠습니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "38.6만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "두번 사는 랭커",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "141.2만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": " 다시 한번, 빛 속으로",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "61.5만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "비뢰도",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "111.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.7",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "절대무신",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "66.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "주인공의 구원자가 될 운명입니다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "50.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악역의 엔딩은 죽음뿐",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "172.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webfri10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "프로야구생존기",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19만명"
+        }
+    ],
+    "webSaturday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "토끼와 흑표범의 공생관계",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "91.5만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "템빨",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "171.3만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "헬무트",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "19.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "복수를 후원해 주세요",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "17.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀는 모래시계를 되돌린다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "124.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악당의 엄마가 되어버렸다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "96.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.8",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "곤륜마협",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "10만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "화산전생",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "192.8만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "샤크",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "172.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websat10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "접근 불가 레이디",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "97.6만명"
+        }
+    ],
+    "webSunday":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "데뷔 못 하면 죽는 병 걸림",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "123.6만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "역대급 창기사의 귀환",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "61.6만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "폭군을 길들이고 도망쳐버렸다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "94만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "내 동생 건들면 너희는 다 죽은 목숨이다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "82.9만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "빙의자를 위한 특혜",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "63.8만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "검술명가 막내아들",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "61.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "남장여주라고 했잖아요",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "28.4만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀는 오늘도 즐겁다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "72.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "갓 오브 블랙필드",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "96만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/websun10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "두 번째 남편이 절륜해서 우울하다",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "25.4만명"
+        }
+    ],
+    "webEnding":[
+        {
+            "rankNumber": "1위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend1.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "하트 크러시",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "44.7만명"
+        },
+        {
+            "rankNumber": "2위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend2.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "흑랑 : 검은이리의 신부",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "32만명"
+        },
+        {
+            "rankNumber": "3위",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend3.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "괴물 공작가의 계약 공녀",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "121.3만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend4.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "왜 이러세요, 공작님",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "138.2만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend5.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "나 혼자 만렙 귀환자",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "81.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend6.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "악녀의 정의",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "161.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "10.0",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend7.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "그녀가 공작저로 가야 했던 사정",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "213.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend8.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "나는 이 집 아이",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "220.6만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "9.9",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend9.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "황제의 외동딸",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "443.7만명"
+        },
+        {
+            "starIcon": "./asset/images/icon/badge-thumbnail-star.svg",
+            "rankNumber": "8.4",
+            "waitIcon": "./asset/images/icon/bmbadge_waitfree.svg",
+            "imgSrc": "./asset/images/contents/webend10.png",
+            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "title": "신이라 불리운 사나이",
+            "readIcon": "./asset/images/icon/icon_read_count.png",
+            "viewPeople": "70.6만명"
         }
     ],
     "challengeToon":[
