@@ -1,62 +1,61 @@
 
 .footer{
     margin: 11px 0;
-}
-.footer .company-box{
-    display: flex;
-    justify-content: space-between;
 
-}
+    .company-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-app-box{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
 
-.footer .btn-app-box{
-    width: 100%;
-    height: 100%;
-}
-.footer .btn-app-box img{
-    width: 100%;
-    height: 100%;
-}
-.footer .company-info{
-    padding: 30px 15px;
-    font-size: 13px;
-    color: #bdbdbd;
-    font-weight: bold;
-}
-
-.footer .addr-title::after{
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: url(../images/icon/icon_trace_off.png) no-repeat;
-    background-size: 100%;
-
-}
-.footer .addr-box{
-    display: none;
-}
-.footer .addr-box.active{
-    display: block;
-}
-.footer .addr-box p{
-    margin-top: 7px;
-    font-weight: bold;
-}
-.footer .corp{
-    display: block;
-    margin-top: 9px;
-}
-.footer .copyright{
-
-    font-size: 10px;
-    margin-bottom: 3px;
-}
-.footer .copyright::before{
-    content: '';
-    display: block;
-    background: url(../images/icon/okMark.png) no-repeat;
-    width: 46px;
-    height: 46px;
-    background-size: 100%;
-
+    .company-info{
+        padding: 30px 15px;
+        font-size: 13px;
+        color: #bdbdbd;
+        font-weight: bold;
+    }
+    .addr-title{
+        &::after{
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: url(../images/icon/icon_trace_off.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+    .addr-box{
+        display: none;
+        &.active{
+            display: block;
+        }
+        p{
+            margin-top: 7px;
+            font-weight: bold;
+        }
+    }
+    .corp{
+        display: block;
+        margin-top: 9px;
+    }
+    .copyright{
+        font-size: 10px;
+        margin-bottom: 3px;
+        &::before{
+            content: '';
+            display: block;
+            background: url(../images/icon/okMark.png) no-repeat;
+            width: 46px;
+            height: 46px;
+            background-size: 100%;
+        
+        }
+    }
 }

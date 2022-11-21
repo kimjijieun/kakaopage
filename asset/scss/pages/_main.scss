@@ -28,7 +28,7 @@
     transform: translateX(-50%);
 }
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
-    width: 20px;
+    width: 5vw;
     height: 2px;
     // height: 1.8px;
     margin: 0;
@@ -366,7 +366,7 @@
             color: #333;
             border-bottom: 2px solid #ffd200;
 
-            .day-wrap{display: block;}
+            // .day-wrap{display: block;}
         }
     }
     .today{
@@ -377,7 +377,10 @@
         box-sizing: border-box;
     }
 
-    // .day-wrap{display: none;}
+    .day-wrap{
+        display: none;
+        &.active{display: block;}
+    }
 }
 
 
