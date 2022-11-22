@@ -9,6 +9,7 @@
             "title": "여제화원",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "10.3만명",
+            "link": "./detail.html",
             "viewWriter": "PAMBA,윤점례"
 
         },
@@ -21,6 +22,7 @@
             "title": "적기사는 눈먼 돈을 좇지 않는다",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "54.5만명",
+            "link": "./detail.html",
             "viewWriter": "송재민,로시원"
 
         },
@@ -32,6 +34,7 @@
             "title": "네 곁에도 어쩌면",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "38.6만명",
+            "link": "./detail.html",
             "viewWriter": "윤지운"
 
         },
@@ -42,6 +45,7 @@
             "title": "영웅 뽑기는 신중하게",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "14.1만명",
+            "link": "./detail.html",
             "viewWriter": "피치,이미누"
 
         }
@@ -54,6 +58,7 @@
             "title": "세상에 나쁜 초월자는 없다",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "10.9만명",
+            "link": "./detail.html",
             "viewWriter": "윤달"
         },
         {
@@ -63,6 +68,7 @@
             "title": "소란한 연애사",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "11.4만명",
+            "link": "./detail.html",
             "viewWriter": "이노"
         },
         {
@@ -73,6 +79,7 @@
             "title": "왕은 길 위에서 태어난다",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "20.9만명",
+            "link": "./detail.html",
             "viewWriter": "이보라"
         },
         {
@@ -82,6 +89,7 @@
             "title": "서리꽃 나리는 강",
             "readIcon": "./asset/images/icon/icon_read_count.png",
             "viewPeople": "11.3만명",
+            "link": "./detail.html",
             "viewWriter": "자색련"
         }
     ],

@@ -66,7 +66,7 @@ $(function(){
             freeToon.forEach(freeToon => {
         
                 html += `<li class="product-item">
-                <a href="">
+                <a href="${freeToon.link}">
                     <div class="img-box">
                         <div class="badge">
                               <img src="${freeToon.timeIcon}" alt="기다리면 무료">
@@ -120,7 +120,7 @@ $(function(){
             publicToon.forEach(publicToon => {
         
                 html += `<li class="product-item">
-                          <a href="">
+                          <a href="${freeNovel.link}">
                               <div class="img-box">
                                   <div class="badge">
                                       <img src="${publicToon.webtoonIcon}" alt="웹툰">
