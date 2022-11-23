@@ -120,7 +120,7 @@ $(function(){
             publicToon.forEach(publicToon => {
         
                 html += `<li class="product-item">
-                          <a href="${freeNovel.link}">
+                          <a href="${publicToon.link}">
                               <div class="img-box">
                                   <div class="badge">
                                       <img src="${publicToon.webtoonIcon}" alt="웹툰">
