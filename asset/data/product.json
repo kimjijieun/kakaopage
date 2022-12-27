@@ -1,172 +1,215 @@
 {
     "freeToon":[
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/free1.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
-            "millionIcon": null,
-            "upIcon": null,
+            "waitFree": true,
+            "new": true,
+            "up": true,
             "title": "여제화원",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "10.3만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "10.3",
             "link": "./detail.html",
-            "viewWriter": "PAMBA,윤점례"
-
+            "Writer": "PAMBA,윤점례"
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
-            "newIcon": null,
-            "millionIcon": "./asset/images/icon/badge_right_million.png",
             "imgSrc": "./asset/images/contents/free2.png",
-            "upIcon": "./asset/images/icon/icon_up.svg",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "적기사는 눈먼 돈을 좇지 않는다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "54.5만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "54.5",
             "link": "./detail.html",
-            "viewWriter": "송재민,로시원"
+            "Writer": "송재민,로시원"
 
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
-            "millionIcon": "./asset/images/icon/badge_right_million.png",
             "imgSrc": "./asset/images/contents/free3.png",
-            "upIcon": "./asset/images/icon/icon_up.svg",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "네 곁에도 어쩌면",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "38.6만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "38.6",
             "link": "./detail.html",
-            "viewWriter": "윤지운"
-
+            "Writer": "윤지운"
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/free4.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
+            "waitFree": true,
+            "new": true,
+            "up": null,
             "title": "영웅 뽑기는 신중하게",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "14.1만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "14.1",
             "link": "./detail.html",
-            "viewWriter": "피치,이미누"
-
+            "Writer": "피치,이미누"
         }
     ],
     "freeNovel":[
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/freenovel1.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
+            "waitFree": true,
+            "new": true,
+            "up": null,
             "title": "세상에 나쁜 초월자는 없다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "10.9만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "10.9",
             "link": "./detail.html",
-            "viewWriter": "윤달"
+            "Writer": "윤달"
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/freenovel2.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
+            "waitFree": true,
+            "new": true,
+            "up": null,
             "title": "소란한 연애사",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "11.4만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "11.4",
             "link": "./detail.html",
-            "viewWriter": "이노"
+            "Writer": "이노"
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/freenovel3.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
-            "millionIcon": "./asset/images/icon/badge_right_million.png",
+            "waitFree": true,
+            "new": true,
+            "up": null,
             "title": "왕은 길 위에서 태어난다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "20.9만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "20.9",
             "link": "./detail.html",
-            "viewWriter": "이보라"
+            "Writer": "이보라"
         },
         {
-            "timeIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/freenovel4.png",
-            "newIcon": "./asset/images/icon/icon_new.svg",
+            "waitFree": true,
+            "new": true,
+            "up": null,
             "title": "서리꽃 나리는 강",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "11.3만명",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "11.3",
             "link": "./detail.html",
-            "viewWriter": "자색련"
+            "Writer": "자색련"
         }
     ],
     "publicToon":[
         {
-            "webtoonIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/popular1.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "회귀한 영애는 디저트 가게를 연다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "19.9만명",
-            "viewWriter": "한리앙,톰"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "19.9",
+            "link": "./detail.html",
+            "Writer": "한리앙,톰"
         },
         {
-            "webtoonIcon": "./asset/images/icon/badge_time.png",
-            "imgSrc": "./asset/images/contents/popular2.jpg",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "imgSrc": "./asset/images/contents/popular2.png",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "우리집이거든요!",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "18.6만명",
-            "viewWriter": "공룡"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "18.6",
+            "link": "./detail.html",
+            "Writer": "공룡"
         },
         {
-            "webtoonIcon": "./asset/images/icon/badge_time.png",
             "imgSrc": "./asset/images/contents/popular3.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "엄마는 외국인 시즌5",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "19.9만명",
-            "viewWriter": "한리앙,톰"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "19.9",
+            "link": "./detail.html",
+            "Writer": "한리앙,톰"
         },
         {
-            "webtoonIcon": "./asset/images/icon/badge_time.png",
-            "imgSrc": "./asset/images/contents/popular4.jpg",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "imgSrc": "./asset/images/contents/popular4.png",
+            "waitFree": true,
+            "new": null,
+            "up": true,
             "title": "악한 기사",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "42.7만명",
-            "viewWriter": "글가애,김랄라"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "42.7",
+            "link": "./detail.html",
+            "Writer": "글가애,김랄라"
         }
     ],
     "publicNovel":[
         {
-            "novelIcon": "./asset/images/icon/badge_novel.png",
             "imgSrc": "./asset/images/contents/popularnovel1.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "novel": "./asset/images/icon/badge_novel.png",
+            "new": null,
+            "up": true,
             "title": "흑막을 구했더니 남편이 생겨버렸다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "2.7만명",
-            "viewWriter": "Yuwn"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "2.7",
+            "link": "./detail.html",
+            "Writer": "Yuwn"
         },
         {
-            "novelIcon": "./asset/images/icon/badge_novel.png",
             "imgSrc": "./asset/images/contents/popularnovel2.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "novel": "./asset/images/icon/badge_novel.png",
+            "new": null,
+            "up": true,
             "title": "폭군에게는 주인이 필요하다",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "2.4만명",
-            "viewWriter": "이별"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "2.4",
+            "link": "./detail.html",
+            "Writer": "이별"
         },
         {
-            "novelIcon": "./asset/images/icon/badge_novel.png",
             "imgSrc": "./asset/images/contents/popularnovel3.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "novel": "./asset/images/icon/badge_novel.png",
+            "new": null,
+            "up": true,
             "title": "몰락 세가의 시한부 영약",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "3.1만명",
-            "viewWriter": "프리드리히"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "3.1",
+            "link": "./detail.html",
+            "Writer": "프리드리히"
         },
         {
-            "novelIcon": "./asset/images/icon/badge_novel.png",
             "imgSrc": "./asset/images/contents/popularnovel4.png",
-            "updateIcon": "./asset/images/icon/icon_up.svg",
+            "novel": "./asset/images/icon/badge_novel.png",
+            "new": null,
+            "up": true,
             "title": "안영경찰서 형사 1팀에 어서 오세요",
-            "readIcon": "./asset/images/icon/icon_read_count.png",
-            "viewPeople": "7,337명",
-            "viewWriter": "김노운"
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "7.3",
+            "link": "./detail.html",
+            "Writer": "김노운"
+        }
+    ],
+    "dayItems":[
+        {
+            "imgSrc": "./asset/images/contents/webtoon2.png",
+            "rank": "1위",
+            "awaitFree": "./asset/images/icon/bmbadge_waitfree.svg",
+            "new": null,
+            "up": true,
+            "title": "도굴왕",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "331.9",
+            "link": "./detail.html",
+            "Writer": null,
+            "sort":"monday"
+        },
+        {
+            "imgSrc": "./asset/images/contents/webtoon1.png",
+            "rank": "2위",
+            "awaitFree": "./asset/images/icon/bmbadge_waitfree.svg",
+            "new": null,
+            "up": true,
+            "title": "소설 속 엑스트라",
+            "read": "./asset/images/icon/icon_read_count.png",
+            "view": "21.6",
+            "link": "./detail.html",
+            "Writer": null,
+            "sort":"monday"
         }
     ],
     "webMonday":[

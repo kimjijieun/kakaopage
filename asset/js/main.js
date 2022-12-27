@@ -48,61 +48,55 @@ $(function(){
         });
     })
 
+    const ic_free = `<img src="./asset/images/icon/badge_time.png" alt="기다리면 무료">`;
+    const ic_new = `<img src="./asset/images/icon/icon_new.svg" alt="">`;
+    const ic_milli = `<img src="./asset/images/icon/badge_right_million.png" alt="밀리언페이지" class="mp-icon">`;
+    const ic_up = `<img src="./asset/images/icon/icon_up.svg" alt="업데이트">`;
+
 
     //기다리면무료웹툰
     fetch("./asset/data/product.json")
     .then((response) => response.json())
     
-    // if(jQuery.isEmptyObject(json_object)) {}
-    // if(true === jQuery.isEmptyObject(json_object)) {}
-	
-
-
+    
     .then((json) => {
-      // alert(json);
-            const freeToon = json.freeToon;
+        // alert(json);
+        const freeToon = json.freeToon;
+
         
             let html = '';
             freeToon.forEach(freeToon => {
         
-                html += `<li class="product-item">
-                <a href="${freeToon.link}">
-                    <div class="img-box">
-                        <div class="badge">
-                              <img src="${freeToon.timeIcon}" alt="기다리면 무료">
-                              <img src="${freeToon.millionIcon}" alt="밀리언페이지" class="mp-icon">
+                html +=`<li class="product-item">
+                    <a href="${freeToon.link}">
+                        <div class="img-box">
+                            <div class="badge">
+
+                                <img src="${freeToon.timeIcon}" alt="기다리면 무료">
+                                <img src="${freeToon.millionIcon}" alt="밀리언페이지" class="mp-icon">
+                            </div>
+                            <img src="${freeToon.imgSrc} " alt="여제화원">
                         </div>
-                        <img src="${freeToon.imgSrc} " alt="여제화원">
-                    </div>
-                    <div class="txt-wrap">
-                        <div class="title-box">
-                            <img src="${freeToon.newIcon}" alt="">
-                            <img src=".${freeToon.upIcon}" alt="업데이트">
-                            <em class="title"> ${freeToon.title}</em>
+                        <div class="txt-wrap">
+                            <div class="title-box">
+                                <img src="${freeToon.newIcon}" alt="">
+                                <img src=".${freeToon.upIcon}" alt="업데이트">
+                                <em class="title"> ${freeToon.title}</em>
+                            </div>
+                            
+                            <div class="view-info">
+                                <img src="${freeToon.readIcon}" alt="사람 아이콘">
+                                <span class="view-people">${freeToon.viewPeople}만명</span>
+                                <span class="view-writer">${freeToon.viewWriter}</span>
+                            </div>
                         </div>
-                        
-                        <div class="view-info">
-                            <img src="${freeToon.readIcon}" alt="사람 아이콘">
-                            <span class="view-people">${freeToon.viewPeople}</span>
-                            <span class="view-writer">${freeToon.viewWriter}</span>
-                        </div>
-                    </div>
-                </a>
-            </li>`;
+                    </a>
+                </li>`;
         
             });
             // console.log(html);
             const list = document.querySelector('.sc-free-toon .product-list');
 
-
-            // function isEmptyObj(obj)  {
-            //   // 객체 타입체크
-            //   if(obj.constructor !== Object)  {
-            //     return false;
-            //   }
-            //   return true;
-            // }
-        
             list.innerHTML = html; //변수
         })
 
