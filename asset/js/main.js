@@ -52,6 +52,7 @@ $(function(){
     const ic_new = `<img src="./asset/images/icon/icon_new.svg" alt="">`;
     const ic_milli = `<img src="./asset/images/icon/badge_right_million.png" alt="밀리언페이지" class="mp-icon">`;
     const ic_up = `<img src="./asset/images/icon/icon_up.svg" alt="업데이트">`;
+    const ic_star = `<img src="./asset/images/icon/badge-thumbnail-star.svg" alt="별점" class="icon-star">`;
 
 
     //기다리면무료웹툰
@@ -66,28 +67,32 @@ $(function(){
         
             let html = '';
             freeToon.forEach(freeToon => {
-        
+
+                freeEl = (freeToon.waitFree)?ic_free:'';
+                newEl = (freeToon.new)?ic_new:'';
+                milliEl = (freeToon.view > 20)?ic_milli:'';
+                upEl = (freeToon.up)?ic_up:'';
+
                 html +=`<li class="product-item">
                     <a href="${freeToon.link}">
                         <div class="img-box">
                             <div class="badge">
-
-                                <img src="${freeToon.timeIcon}" alt="기다리면 무료">
-                                <img src="${freeToon.millionIcon}" alt="밀리언페이지" class="mp-icon">
+                                ${freeEl}
+                                ${milliEl}
                             </div>
                             <img src="${freeToon.imgSrc} " alt="여제화원">
                         </div>
                         <div class="txt-wrap">
                             <div class="title-box">
-                                <img src="${freeToon.newIcon}" alt="">
-                                <img src=".${freeToon.upIcon}" alt="업데이트">
+                                ${newEl}
+                                ${upEl}
                                 <em class="title"> ${freeToon.title}</em>
                             </div>
                             
                             <div class="view-info">
-                                <img src="${freeToon.readIcon}" alt="사람 아이콘">
-                                <span class="view-people">${freeToon.viewPeople}만명</span>
-                                <span class="view-writer">${freeToon.viewWriter}</span>
+                                <img src="${freeToon.read}" alt="사람 아이콘">
+                                <span class="view-people">${freeToon.view}만명</span>
+                                <span class="view-writer">${freeToon.Writer}</span>
                             </div>
                         </div>
                     </a>
@@ -99,6 +104,54 @@ $(function(){
 
             list.innerHTML = html; //변수
         })
+
+
+    //기다리면 무료 소설
+    fetch("./asset/data/product.json")
+    .then((response) => response.json())
+
+
+    .then((json) => {
+        // alert(json);
+        const freeNovel = json.freeNovel;
+
+        let html = '';
+        freeNovel.forEach(freeNovel => {
+
+                freeEl = (freeNovel.waitFree)?ic_free:'';
+                newEl = (freeNovel.new)?ic_new:'';
+            
+                html +=`<li class="product-item">
+                            <a href="${freeNovel.link}">
+                                <div class="img-box">
+                                    <div class="badge">
+                                        ${freeEl}
+                                    </div>
+                                    <img src="${freeNovel.imgSrc}" alt="${freeNovel.title}">
+                                    
+                                </div>
+                                <div class="txt-wrap">
+                                    <div class="title-box">
+                                        ${newEl}
+                                        <em class="title">${freeNovel.title}</em>
+                                    </div>
+                                    
+                                    <div class="view-info">
+                                        <img src="${freeNovel.read}" alt="사람 아이콘">
+                                        <span class="view-people">${freeNovel.view}만명</span>
+                                        <span class="view-writer">${freeNovel.Writer}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>`;
+        
+            });
+            // console.log(html);
+            const list = document.querySelector('.sc-free-novel .product-list');
+
+            list.innerHTML = html; //변수
+        })
+
 
 
 
@@ -113,24 +166,26 @@ $(function(){
             let html = '';
             publicToon.forEach(publicToon => {
         
+                upEl = (publicToon.up)?ic_up:'';
+
                 html += `<li class="product-item">
                           <a href="${publicToon.link}">
                               <div class="img-box">
                                   <div class="badge">
-                                      <img src="${publicToon.webtoonIcon}" alt="웹툰">
+                                      <img src="${publicToon.toon}" alt="웹툰">
                                   </div>
-                                  <img src="${publicToon.imgSrc}" alt="회귀한 영애는 디저트 가게를 연다">
+                                  <img src="${publicToon.imgSrc}" alt="${publicToon.title}">
                               </div>
                               <div class="txt-wrap">
                                   <div class="title-box">
-                                      <img src="${publicToon.updateIcon}" alt="업데이트">
+                                      ${upEl}
                                       <em class="title">${publicToon.title}</em>
                                   </div>
                                   
                                   <div class="view-info">
-                                      <img src="${publicToon.readIcon}" alt="사람 아이콘">
-                                      <span class="view-people">${publicToon.viewPeople}</span>
-                                      <span class="view-writer">${publicToon.viewWriter}</span>
+                                      <img src="${publicToon.read}" alt="사람 아이콘">
+                                      <span class="view-people">${publicToon.view}만명</span>
+                                      <span class="view-writer">${publicToon.Writer}</span>
                                   </div>
                               </div>
                           </a>
@@ -145,331 +200,45 @@ $(function(){
         })
 
 
+//인기 웹소설
 
-
-    //월요일
     fetch("./asset/data/product.json")
     .then((response) => response.json())
     .then((json) => {
 
-            const webMonday = json.webMonday;
+            const publicNovel = json.publicNovel;
         
             let html = '';
-            webMonday.forEach(webMonday => {
-        
+            publicNovel.forEach(publicNovel => {
+
+                upEl = (publicNovel.up)?ic_up:'';
+
                 html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webMonday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webMonday.rankNumber}</p>
-                                        <img src="${webMonday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webMonday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webMonday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webMonday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webMonday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webMonday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
+                          <a href="${publicNovel.link}">
+                              <div class="img-box">
+                                  <div class="badge">
+                                      <img src="${publicNovel.novel}" alt="웹소설">
+                                  </div>
+                                  <img src="${publicNovel.imgSrc}" alt="${publicNovel.title}">
+                              </div>
+                              <div class="txt-wrap">
+                                  <div class="title-box">
+                                        ${upEl}
+                                      <em class="title">${publicNovel.title}</em>
+                                  </div>
+                                  
+                                  <div class="view-info">
+                                      <img src="${publicNovel.read}" alt="사람 아이콘">
+                                      <span class="view-people">${publicNovel.view}만명</span>
+                                      <span class="view-writer">${publicNovel.Writer}</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>`;
         
             });
             // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.mon .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //화요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webTuesday = json.webTuesday;
-        
-            let html = '';
-            webTuesday.forEach(webTuesday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webTuesday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webTuesday.rankNumber}</p>
-                                        <img src="${webTuesday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webTuesday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webTuesday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webTuesday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webTuesday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webTuesday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.tue .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //수요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webWednesday = json.webWednesday;
-        
-            let html = '';
-            webWednesday.forEach(webWednesday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webWednesday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webWednesday.rankNumber}</p>
-                                        <img src="${webWednesday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webWednesday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webWednesday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webWednesday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webWednesday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webWednesday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.wed .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //목요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webThursday = json.webThursday;
-        
-            let html = '';
-            webThursday.forEach(webThursday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webThursday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webThursday.rankNumber}</p>
-                                        <img src="${webThursday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webThursday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webThursday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webThursday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webThursday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webThursday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.thu .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //금요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webFriday = json.webFriday;
-        
-            let html = '';
-            webFriday.forEach(webFriday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webFriday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webFriday.rankNumber}</p>
-                                        <img src="${webFriday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webFriday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webFriday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webFriday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webFriday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webFriday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.fri .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //토요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webSaturday = json.webSaturday;
-        
-            let html = '';
-            webSaturday.forEach(webSaturday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webSaturday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webSaturday.rankNumber}</p>
-                                        <img src="${webSaturday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webSaturday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webSaturday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webSaturday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webSaturday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webSaturday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.sat .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //일요일
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webSunday = json.webSunday;
-        
-            let html = '';
-            webSunday.forEach(webSunday => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webSunday.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webSunday.rankNumber}</p>
-                                        <img src="${webSunday.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webSunday.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webSunday.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webSunday.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webSunday.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webSunday.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.sun .product-list');
-
-        
-            list.innerHTML = html; //변수
-        })
-
-    //완결
-    fetch("./asset/data/product.json")
-    .then((response) => response.json())
-    .then((json) => {
-
-            const webEnding = json.webEnding;
-        
-            let html = '';
-            webEnding.forEach(webEnding => {
-        
-                html += `<li class="product-item">
-                            <a href="">
-                                <div class="img-box">
-                                    <div class="badge">
-                                        <img src="${webEnding.starIcon}" alt="별점" class="icon-star">
-                                        <p class="img-rank">${webEnding.rankNumber}</p>
-                                        <img src="${webEnding.waitIcon}" alt="" class="icon-wait">
-                                    </div>
-                                    <img src="${webEnding.imgSrc}" alt="도굴왕">
-                                </div>
-                                <div class="txt-wrap">
-                                    <div class="title-box">
-                                        <em class="title">${webEnding.title}</em>
-                                    </div>
-                                    <div class="view-info">
-                                        <img src="${webEnding.updateIcon}" alt="업데이트" class="icon-up">
-                                        <img src="${webEnding.readIcon}" alt="사람 아이콘">
-                                        <span class="view-people">${webEnding.viewPeople}</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>`;
-        
-            });
-            // console.log(html);
-            const list = document.querySelector('.sc-array .day-wrap.end .product-list');
+            const list = document.querySelector('.sc-public-novel .product-list');
 
         
             list.innerHTML = html; //변수
@@ -477,7 +246,66 @@ $(function(){
 
 
 
-        
+
+    //월요일~완결
+    $('.arrayDay-item').click(function(e){
+        e.preventDefault();
+
+        val = $(this).data('name');
+
+        fetch("./asset/data/product.json")
+        .then((response) => response.json())
+        .then((json) => {
+
+                const data = json.dayItems;
+                const result = data.filter(function (a) {return a.sort == val});
+            
+                let html = '';
+                result.forEach(dayEl => {
+            //원래 data를 불렀다면 이제는 result를 불러줘야함
+                    starEl = (dayEl.star)?ic_star:'';
+                    upEl = (dayEl.up)?ic_up:'';
+
+                    html += `<li class="product-item">
+                                <a href="">
+                                    <div class="img-box">
+                                        <div class="badge">
+                                            ${starEl}
+                                            <p class="img-rank">${dayEl.rank}</p>
+                                            <img src="${dayEl.awaitFree}" alt="" class="icon-wait">
+                                        </div>
+                                        <img src="${dayEl.imgSrc}" alt="도굴왕">
+                                    </div>
+                                    <div class="txt-wrap">
+                                        <div class="title-box">
+                                            <em class="title">${dayEl.title}</em>
+                                        </div>
+                                        <div class="view-info">
+                                            ${upEl}
+                                            <img src="${dayEl.read}" alt="사람 아이콘">
+                                            <span class="view-people">${dayEl.view}</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>`;
+            
+                });
+                // console.log(html);
+                const list = document.querySelector('.sc-array .day-wrap .product-list');
+
+            
+                list.innerHTML = html; //변수
+            })
+
+        // $(this).addClass('active').siblings().removeClass('active');
+    });
+
+    $('.arrayDay-item:nth-child(1)').trigger('click');
+
+        // a = $('.arrayDay-item').ep(0);
+// console.log(a);
+
+
 
 
     // 요일별 클릭
@@ -533,7 +361,7 @@ $(function(){
         loop: true,
         slidesPerView: 'auto',
       });
-    })
+    });
 
 
 
