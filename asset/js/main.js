@@ -283,7 +283,7 @@ $(function(){
                                         <div class="view-info">
                                             ${upEl}
                                             <img src="${dayEl.read}" alt="사람 아이콘">
-                                            <span class="view-people">${dayEl.view}</span>
+                                            <span class="view-people">${dayEl.view}만명</span>
                                         </div>
                                     </div>
                                 </a>
@@ -312,10 +312,11 @@ $(function(){
 
     $('.sc-array .arrayDay-item').click(function(e){
         e.preventDefault();
-        day = $(this).attr('name'); /*name 속성의 값 */ 
+        // day = $(this).attr('name'); /*name 속성의 값 */ 
         $(this).addClass('active').siblings().removeClass('active');
 
-        $(day).addClass('active').siblings().removeClass('active'); 
+        $('.dayMore-box').addClass('active').siblings().removeClass('active');
+        // $(day).addClass('active').siblings().removeClass('active'); 
         /* 나를 제외한 클래스 없애기 */
     })
 

@@ -376,6 +376,7 @@
     
     }
     .dayMore-box{
+        // display: none;
         display: block;
         margin: 0 auto;
         border: 1px solid #dddddd;
@@ -396,6 +397,7 @@
             background: url(../images/icon/ic-more-gray.svg) no-repeat;
             background-size: 100%;
         }
+        // &.active{display: block;}
     }
 }
 

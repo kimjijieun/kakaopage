@@ -13,6 +13,28 @@
         height: 50px;
         padding: 0 15px;
         border-bottom: 1px solid #e6e6e6;
+
+        .cotrol-box{
+            .link-back{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                // /* margin: 16px 0 12px 0; */
+            
+                background: url(../images/icon/back-icon.svg)no-repeat;
+                background-size: 100%;
+            }
+            .link-home{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin-left: 20px;
+                /* margin: 16px 0px 12px 20px; */
+            
+                background: url(../images/icon/home-icon.svg)no-repeat;
+                background-size: 100%;
+            }
+        } 
     }
 
     .link-logo{
