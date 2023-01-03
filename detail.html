@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>로열 메리지</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./asset/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./asset/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./asset/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./asset/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./asset/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./asset/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./asset/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./asset/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./asset/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./asset/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./asset/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./asset/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 <body>
@@ -12,29 +32,29 @@
     <header class="header">
         <div class="logo-area">
             <div class="cotrol-box">
-                <a href="./index.html" class="link-back"><span class="blind">뒤로가기</span></a>
-                <a href="./index.html" class="link-home"><span class="blind">홈</span></a>
+                <a href="./index.html" class="link-back link-back2"><span class="blind">뒤로가기</span></a>
+                <a href="./index.html" class="link-home link-home2"><span class="blind">홈</span></a>
             </div>
             <div class="stage-area">
-                <a href=""class="link-search"><span class="blind">검색하기</span></a>
-                <a href=""class="link-login">로그인</a>
+                <a href="" class="link-search"><span class="blind">검색하기</span></a>
+                <a href="" class="link-login">로그인</a>
             </div>
         </div>
 
         <div class="search-area"> <!-- 포지션 아니면 none? -->
             <div class="control-wrap">
                 <p class="control-box">
-                    <a href="./index.html" class="link-back"><span class="blind">뒤로가기</span></a>
+                    <a href="./detail.html" class="link-back"><span class="blind">뒤로가기</span></a>
                     <a href="./index.html" class="link-home"><span class="blind">홈</span></a>
                     <a href="" class="link-login">로그인</a>
                 </p>
             </div>
             <div class="search-inner">
-                <form action="" method="get" autocomplete="off">
+                <form method="get" autocomplete="off">
                     <fieldset>
                         <legend class="blind">검색</legend>
                         <div class="search-box">
-                            <input type="text" name="" id="search" class="search-bar"placeholder="검색어를 입력해 주세요.">
+                            <input type="text" id="search" class="search-bar" placeholder="검색어를 입력해 주세요.">
                             <a href="" class="link-search"><span class="blind">검색하기</span></a>
                         </div>
                     </fieldset>
@@ -98,6 +118,7 @@
 
 
         <section class="sc-viewer">
+            <h2 class="blind">조회수</h2>
             <ul>
                 <li class="viewer-item">
                     <div><span class="bold">346,647</span>명이 보는중</div>
@@ -111,6 +132,7 @@
         <button class="btn-watch">첫편보기</button>
 
         <section class="sc-total">
+            <h2 class="blind">웹툰목록</h2>
             <div class="total-wrap">
                 <span>전체 (20)</span>
                 <a href="" class="total-order">첫편부터</a>

@@ -178,7 +178,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(../images/icon/back-icon.svg) no-repeat;
+  background: url(../../images/icon/back-icon.svg) no-repeat;
   background-size: 100%;
 }
 .header .logo-area .cotrol-box .link-home {
@@ -187,7 +187,7 @@ body {
   height: 20px;
   margin-left: 20px;
   /* margin: 16px 0px 12px 20px; */
-  background: url(../images/icon/home-icon.svg) no-repeat;
+  background: url(../../images/icon/home-icon.svg) no-repeat;
   background-size: 100%;
 }
 .header .link-logo {
@@ -1175,6 +1175,23 @@ body {
 }
 .sc-event .img-box img {
   width: 100%;
+}
+
+.logo-area .cotrol-box .link-back2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/icon/back-icon.svg) no-repeat;
+  background-size: 100%;
+}
+.logo-area .cotrol-box .link-home2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  /* margin: 16px 0px 12px 20px; */
+  background: url(../images/icon/home-icon.svg) no-repeat;
+  background-size: 100%;
 }
 
 .sc-webToon {
