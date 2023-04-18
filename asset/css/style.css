@@ -21,12 +21,12 @@
 }
 @font-face {
   font-family: "Pretendard";
-  src: url(../../font/Pretendard-Regular.woff2);
+  src: url(../font/Pretendard-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: "Pretendard";
-  src: url(../../font/Pretendard-Bold.woff2);
+  src: url(../font/Pretendard-Bold.woff2);
   font-weight: 700;
 }
 /* 리셋용도 */
