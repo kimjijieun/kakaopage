@@ -252,6 +252,9 @@ $(function(){
         e.preventDefault();
 
         val = $(this).data('name');
+        dateName = $(this).find('.today').text();
+
+        $('.dayMore-box').text(`${dateName} 연재 더보기`)
 
         fetch("./asset/data/product.json")
         .then((response) => response.json())
