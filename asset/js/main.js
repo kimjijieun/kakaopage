@@ -41,10 +41,6 @@ $(function(){
           pagination: {
             el: ".swiper-pagination",
           },
-          // scrollbar: {
-          //   el: ".swiper-scrollbar",
-          //   dragSize: 300,스크롤바 크기
-          // },
         });
     })
 
@@ -305,8 +301,6 @@ $(function(){
 
     $('.arrayDay-item:nth-child(1)').trigger('click');
 
-        // a = $('.arrayDay-item').ep(0);
-// console.log(a);
 
 
 
@@ -319,8 +313,6 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
 
         $('.dayMore-box').addClass('active').siblings().removeClass('active');
-        // $(day).addClass('active').siblings().removeClass('active'); 
-        /* 나를 제외한 클래스 없애기 */
     })
 
 

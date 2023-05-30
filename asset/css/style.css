@@ -21,12 +21,12 @@
 }
 @font-face {
   font-family: "Pretendard";
-  src: url(../font/Pretendard-Regular.woff2);
+  src: url(../../font/Pretendard-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: "Pretendard";
-  src: url(../font/Pretendard-Bold.woff2);
+  src: url(../../font/Pretendard-Bold.woff2);
   font-weight: 700;
 }
 /* 리셋용도 */
@@ -913,16 +913,6 @@ body {
   border-bottom: 1px solid rgb(230, 230, 230);
 }
 
-/* @@@@@@@@@ */
-/* .sc-free-novel .preview-item:nth-child(odd) .preview-title::after{
-    content: '';
-    display: inline-block;
-    width: 15px;
-    height: 14px;
-    background: url(../images/icon/icon_15.png) no-repeat;
-    background-size: 100%;
-    margin-right: 3px;
-} */
 /* .sc-public-toon */
 .sc-public-toon {
   position: relative;
