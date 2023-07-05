@@ -169,7 +169,6 @@
         }
         .tab-item{
             flex: 1;
-            padding: 14px 0 11px;
             position: relative;
             // 자바
             &.active{
@@ -180,33 +179,29 @@
         }
     }
     .link-tab{
-        display: inline-block;
-        /* width: 13px; */
+        display: block;
+        padding: 14px 0;
+        width: 100%;
         height: 16px;
         &.home{
-            width: 13px;
-            background: url(../images/icon/menu_home.svg)no-repeat;
-            background-size: 100%;
+            background: url(../images/icon/menu_home.svg)no-repeat center center;
+            background-size: 13px auto;
         }
         &.web-toon{
-            width: 47px;
-            background: url(../images/icon/menu_toon.svg)no-repeat;
-                background-size: 100%;
+            background: url(../images/icon/menu_toon.svg)no-repeat center center;
+            background-size: 47px auto;
         }
         &.novel{
-            width: 60px;
-            background: url(../images/icon/menu_novel.svg)no-repeat;
-                background-size: 100%;
+            background: url(../images/icon/menu_novel.svg)no-repeat center center;
+            background-size: 60px auto;
         }
         &.talk{
-            width: 38px;
-            background: url(../images/icon/menu_talkdrip.svg)no-repeat;
-                background-size: 100%;
+            background: url(../images/icon/menu_talkdrip.svg)no-repeat center center;
+            background-size: 38px auto;
         }
         &.book{
-            width: 13px;
-            background: url(../images/icon/menu_book.svg)no-repeat;
-                background-size: 100%;
+            background: url(../images/icon/menu_book.svg)no-repeat center center;
+            background-size: 13px auto;
         }
         &.web-toon{
             &::after{
@@ -227,8 +222,8 @@
                 box-sizing: border-box;
                 position: absolute;
                 border-radius: 50%;
-                right: -8px;
-                top: -9px;
+                right: 5px;
+                top: 5px;
                 width: 5px;
                 height: 5px;
                 background-color: rgb(255, 210, 0);
@@ -240,8 +235,8 @@
                 box-sizing: border-box;
                 position: absolute;
                 border-radius: 50%;
-                right: -8px;
-                top: -9px;
+                right: 5px;
+                top: 5px;
                 width: 5px;
                 height: 5px;
                 background-color: rgb(255, 210, 0);
