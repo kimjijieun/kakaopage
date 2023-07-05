@@ -4,7 +4,6 @@ $(function(){
     fetch("./asset/data/banner.json")
     .then((response) => response.json())
     .then((json) => {
-  // alert(json);
         const mainBanner = json.mainBanner;
     
         let html = '';
@@ -22,10 +21,9 @@ $(function(){
                     </li>`;
     
         });
-        // console.log(html);
         const list = document.querySelector('.sc-visual .swiper-wrapper');
     
-        list.innerHTML = html; //변수
+        list.innerHTML = html;
   
   
         var mainSlide = new Swiper(".main-slide", {
@@ -33,7 +31,6 @@ $(function(){
           spaceBetween: 5,
           centeredSlides: true,
           loop: true,
-          slidesPerView: 'auto',
           autoplay: {
             delay: 3000,
             disableOnInteraction: false,
@@ -57,10 +54,7 @@ $(function(){
     
     
     .then((json) => {
-        // alert(json);
         const freeToon = json.freeToon;
-
-        
             let html = '';
             freeToon.forEach(freeToon => {
 
@@ -95,10 +89,9 @@ $(function(){
                 </li>`;
         
             });
-            // console.log(html);
             const list = document.querySelector('.sc-free-toon .product-list');
 
-            list.innerHTML = html; //변수
+            list.innerHTML = html;
         })
 
 
@@ -108,7 +101,6 @@ $(function(){
 
 
     .then((json) => {
-        // alert(json);
         const freeNovel = json.freeNovel;
 
         let html = '';
@@ -142,17 +134,15 @@ $(function(){
                         </li>`;
         
             });
-            // console.log(html);
             const list = document.querySelector('.sc-free-novel .product-list');
 
-            list.innerHTML = html; //변수
+            list.innerHTML = html;
         })
 
 
 
 
 //인기 웹툰
-
     fetch("./asset/data/product.json")
     .then((response) => response.json())
     .then((json) => {
@@ -188,11 +178,10 @@ $(function(){
                       </li>`;
         
             });
-            // console.log(html);
             const list = document.querySelector('.sc-public-toon .product-list');
 
         
-            list.innerHTML = html; //변수
+            list.innerHTML = html;
         })
 
 
@@ -233,11 +222,10 @@ $(function(){
                       </li>`;
         
             });
-            // console.log(html);
             const list = document.querySelector('.sc-public-novel .product-list');
 
         
-            list.innerHTML = html; //변수
+            list.innerHTML = html;
         })
 
 
@@ -261,7 +249,7 @@ $(function(){
             
                 let html = '';
                 result.forEach(dayEl => {
-            //원래 data를 불렀다면 이제는 result를 불러줘야함
+
                     starEl = (dayEl.star)?ic_star:'';
                     upEl = (dayEl.up)?ic_up:'';
 
@@ -289,14 +277,11 @@ $(function(){
                             </li>`;
             
                 });
-                // console.log(html);
                 const list = document.querySelector('.sc-array .day-wrap .product-list');
 
             
-                list.innerHTML = html; //변수
+                list.innerHTML = html;
             })
-
-        // $(this).addClass('active').siblings().removeClass('active');
     });
 
     $('.arrayDay-item:nth-child(1)').trigger('click');
@@ -309,7 +294,6 @@ $(function(){
 
     $('.sc-array .arrayDay-item').click(function(e){
         e.preventDefault();
-        // day = $(this).attr('name'); /*name 속성의 값 */ 
         $(this).addClass('active').siblings().removeClass('active');
 
         $('.dayMore-box').addClass('active').siblings().removeClass('active');
@@ -346,7 +330,7 @@ $(function(){
       });
       const list = document.querySelector('.event-area .swiper-wrapper');
     
-        list.innerHTML = html; //변수
+        list.innerHTML = html;
 
 
 
@@ -386,14 +370,14 @@ $(function(){
       });
       const list = document.querySelector('.sc-event .swiper-wrapper');
     
-      list.innerHTML = html; //변수
+      list.innerHTML = html;
 
 
 
       var lastSlide = new Swiper(".sc-event .swiper", {
         spaceBetween: 10,
+        slidesPerView: '1.2',
         freeMode: true,
-        slidesPerView: 'auto',
       });
     })
       

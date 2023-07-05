@@ -2,7 +2,7 @@
     .product-item{
         &>a{display: block;}
     }
-    // 개인레이아웃을위해
+
     &.column-2{
         padding: 17px 20.7px 5px;
         display: flex;
@@ -165,7 +165,6 @@
         
     }
     &.row-3{
-        // padding: 10px 20px;
         .product-item{
             padding: 10px 20px;
             &>a{
@@ -277,17 +276,3 @@
         }
     }
 }
-
-
-// 
-// .preview-list{
-//     padding: 17px 20.7px 5px;
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
-//     gap: 5px;
-// }
-// .preview-item{
-//     width: calc(50% - 5px);
-//     height: 100%;
-// }

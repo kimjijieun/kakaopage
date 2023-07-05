@@ -3,13 +3,9 @@
     background: #fff;
     border-bottom: 1px solid rgb(230, 230, 230);
 
-    /* //main-slide */
     .main-slide{
         padding-top: 4.5vw;
-        .swiper-slide{
-            width: 428px;
-            height: 281px;
-        }
+        .swiper-slide{}
         img{
             width: 100%;
             height: 100%;
@@ -17,7 +13,6 @@
             border-radius: 6px;
         }
         .swiper-bar{
-            // bottom: 37px;
             position: relative;
             margin: 3.45vw 0;
             left: 50%;
@@ -26,7 +21,6 @@
         .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
             width: 5vw;
             height: 2px;
-            // height: 1.8px;
             margin: 0;
             border-radius: 0;
             background: #9d9d9d;
@@ -56,7 +50,6 @@
             border-radius: 15px;
             font-size: 10px;
             background-color: #ffd200;
-            /* margin-left: 4px; */
             padding: 0 5px;
             text-align: center;
 
@@ -65,8 +58,6 @@
 }
 
 
-
-/* //sc-free-toon */
 .sc-free-toon{
     margin-top: 11px;
     background: #fff;
@@ -76,7 +67,6 @@
 }
 
 
-/* .sc-free-novel */
 .sc-free-novel{
     position: relative;
     margin-top: 11px;
@@ -86,7 +76,6 @@
 
 
 
-/* .sc-public-toon */
 .sc-public-toon{
     position: relative;
     margin-top: 11px;
@@ -95,7 +84,6 @@
 }
 
 
-/* .sc-public-novel */
 .sc-public-novel{
     position: relative;
     margin-top: 11px;
@@ -116,7 +104,6 @@
 
 
 
-/* event-area */
 .event-area{
     position: relative;
     margin-top: 11px;
@@ -135,8 +122,6 @@
 }
 
 
-
-/* sc-ranking */
 .sc-ranking{
     position: relative;
     margin-top: 11px;
@@ -186,7 +171,6 @@
     .board-wrap{
         display: flex;
         align-items: center;
-        /* flex: 1; */
     }
     .img-box{
         width: 62px;
@@ -230,14 +214,8 @@
     }
 }
 
-// .sc-ranking .img{
-//     width: 100%;
-//     height: 100%;
-// }
 
 
-
-/* /ad-area */
 .ad-area{
     position: relative;
     margin-top: 11px;
@@ -252,7 +230,6 @@
 }
 
 
-/* sc-array */
 .sc-array{
     position: relative;
     margin-top: 11px;
@@ -278,7 +255,6 @@
         color: #bbbbbb;
         font-weight: bold;
 
-        /* 자바 */
         &.active{
             color: #333;
             border-radius: 28px;
@@ -333,19 +309,15 @@
         text-align: center;
         border-bottom: 1px solid #f1f1f1;
         cursor: pointer;
-        // 자바
         &.active{
             color: #333;
             border-bottom: 2px solid #ffd200;
-
-            // .day-wrap{display: block;}
         }
     }
     .today{
         display: inline-block;
         width: 100%;
         height: 100%;
-        /* padding: 11px 0; */
         box-sizing: border-box;
     }
 
@@ -358,7 +330,6 @@
     
     }
     .dayMore-box{
-        // display: none;
         display: block;
         margin: 0 auto;
         border: 1px solid #dddddd;
@@ -379,14 +350,13 @@
             background: url(../images/icon/ic-more-gray.svg) no-repeat;
             background-size: 100%;
         }
-        // &.active{display: block;}
     }
 }
 
 
 
 
-/*  sc-challenge */
+
 .sc-challenge{
     position: relative;
     margin-top: 11px;
@@ -395,8 +365,6 @@
 }
 
 
-
-/* sc-millionnovel */
 .sc-millionnovel{
     position: relative;
     margin-top: 11px;
@@ -422,7 +390,7 @@
 }
 
 
-/* sc-bestseller */
+
 .sc-bestseller{
     position: relative;
     margin-top: 11px;
@@ -431,7 +399,7 @@
 }
 
 
-/* ad-box */
+
 .ad-box{
     position: relative;
     margin-top: 11px;
@@ -439,14 +407,12 @@
     border-bottom: 1px solid rgb(230, 230, 230);
     width: 100%;
     height: 100%;
-    /* padding: 0 23px; */
     & > a{display: block; padding: 0 10px;background-color: #565245;}
     img{width: 100%;height: 100%;}
 }
 
 
 
-/* sc-event */
 .sc-event{
     position: relative;
     margin-top: 11px;

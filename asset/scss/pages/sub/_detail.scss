@@ -129,7 +129,6 @@
             border-bottom: 1px solid rgb(241, 241, 241);
             align-items: center;
             justify-content: space-between;
-            /* display: none; */
             &::after{
                 content: '';
                 display: inline-block;
@@ -322,7 +321,6 @@
                 box-sizing: border-box;
                 display: block;
                 font-size: 12px;
-                /* padding: 10px; */
                 background: #fff;
                 padding: 10px;
                 width: 115px;
@@ -333,7 +331,6 @@
         }
     }
     .total-num{
-        /* padding: 8px 10px 10px; */
         color: rgb(51, 51, 51);
         font-weight: 600;
         font-size: 12px;
