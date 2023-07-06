@@ -339,7 +339,6 @@ $(function(){
         spaceBetween: 5,
         centeredSlides: true,
         loop: true,
-        slidesPerView: 'auto',
       });
     });
 
